@@ -1,6 +1,158 @@
 Note: The goal is to have any additions/changes/options to NOT affect the original default
       behavior if not used or implemented (for backwards compatibility); but sometimes this is
       not always possible especially when adding new features.
+
+---------------------------------------------
+31May2024
+---------------------------------------------
+corrected error in SetupS-files.htm to point to SetupS_v#ProjectVersion#_ssWPI.Update.Package.7z 
+under the heading ssWPI update package (.7z)
+edited readme.md to remove reference to LFS and update to latest version
+
+---------------------------------------------
+22May2024
+---------------------------------------------
+updated 7z to v24.5
+corrected error in SetupS-files.htm to point to Install.SetupS_v#ProjectVersion#.exe
+added check for Autoit existence in !DistrPack.Project.cmd file without Autoit app will fail
+
+
+---------------------------------------------
+25Oct2023
+---------------------------------------------
+added styles Document
+
+---------------------------------------------
+24Oct2023
+---------------------------------------------
+added confirmation to delete html help files
+
+---------------------------------------------
+20Oct2023
+---------------------------------------------
+updated to-do list
+
+---------------------------------------------
+19Oct2023
+---------------------------------------------
+Added upload script for html help files for vergitek
+updated updfiles.cmd to support help file upload
+added  makehelp.cmd for html help file upload
+
+---------------------------------------------
+18Oct2023
+---------------------------------------------
+modified:   FAQ.md
+
+---------------------------------------------
+17Oct2023
+---------------------------------------------
+updated .gitignore
+removed git lfs as it has limitations on number of times for upload of big files
+
+---------------------------------------------
+13Oct2023
+---------------------------------------------
+updated Instructions.md for git-large-file-storage (git lfs)
+
+---------------------------------------------
+11Oct2023
+---------------------------------------------
+added git-large-file-storage (git lfs)
+updated readme with link to SetupS.Project_DevelopersPack_Tools
+
+---------------------------------------------
+09Oct2023
+---------------------------------------------
+updated testmv
+added development tools directory (devtools)
+updated instructions to include timecompile.cmd and devtools useage
+
+
+---------------------------------------------
+08Oct2023
+---------------------------------------------
+updated in !DistrPack.Project.cmd for move list sequence for %WebSite2%
+added in !DistrPack.Project.cmd setup of move files script using winscp
+updated readme.md
+added timecmd.cmd to time compile and upload of files
+
+---------------------------------------------
+06Oct2023
+---------------------------------------------
+added LastOS ftp create move list to !DistrPack.Project.cmd
+
+---------------------------------------------
+27Sep2023
+---------------------------------------------
+updated FAQ
+updated updfiles.cmd
+modified:   !DistrPack.Project.cmd
+updated readme.md
+
+---------------------------------------------
+26Sep2023
+---------------------------------------------
+added code for vergitek to use Winscp ftp app
+createduploadfilesftp.cmd file for use by multi ftp sites using Winscp
+added filesvergitek.ini to .gitignore
+updated ProjectVersion=23.09.26.0
+
+---------------------------------------------
+25Sep2023
+---------------------------------------------
+changed converted help file to version 8 of helpndoc
+added new code for use of helpndoc8
+updated ProjectVersion=23.09.25.0
+added details to FAQ sections  ## Winscp, ## helpndoc 8
+---------------------------------------------
+23Sep2023
+---------------------------------------------
+updated Instructions.md
+
+---------------------------------------------
+21Sep2023
+---------------------------------------------
+added move old files to SetupSoldfies/folder on ftp site to script
+added to !DistrPack.Project.cmd a prompt "Do you want to upload files with winscp at the end ..."
+updated instructions for manually uploading of files
+modified:   !DistrPack.Project.cmd for uploading files
+modified:   !DistrPack.Project.cmd added time start and finish
+added color messages with ansi
+---------------------------------------------
+21Sep2023
+---------------------------------------------
+updated Instructions.md with References
+
+---------------------------------------------
+20Sep2023
+---------------------------------------------
+added :LastOS Forum code to !DistrPack.Project.cmd for creating script file dor use with winscp
+added code to !DistrPack.Project.cmd for auto upload to LastOSForum
+added uploadlastos.cmd file to upload files to lastos Forum
+added color and error capture to uploadlastos.cmd
+added updfiles.cmd for update of #password# parameter in fileslastos.ini
+added updfiles.cmd to gitignore to prevent upload to github
+added 'Uploading using curl' for use with accounts.ini file in instructions.md
+added fle structure in  blank_Accounts.ini file
+modified:   Source.Code/SetupS-files.htm
+modified:   !DistrPack.Project.cmd added date time of upload files
+
+---------------------------------------------
+17Sep2023
+---------------------------------------------
+added .gitignore file and added Accounts.ini to ignore list
+added blank_Accounts.ini file for use with upload files
+added ChangeLog.txt to list of files to copy
+
+
+
+---------------------------------------------
+15Sep2023
+---------------------------------------------
+corrected formatting error in SetupS-files.htm file
+updated instructions
+
 ---------------------------------------------
 13Sep2023
 ---------------------------------------------

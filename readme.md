@@ -14,7 +14,7 @@
 # Introduction
 These are the files for SetupS.SendTo.Suite for builder.
 
-current version v23.09.13.0
+current version 2024-05-31
 
 ##  Changelog
 check the changelog.txt for history and list of changes
@@ -35,8 +35,13 @@ this will copy the files to your computer into the created subdirectory.
 
 
 ## Tools used
+
 * Autoit v3.3.8.1
-* 7z v23.01
+* 7z.exe/dll v23.01 -[here](http://www.7-zip.org)
+* 7zSD.sfx Modified SFX Module v1.6 -[here](http://7zsfx.info/en/)
+* Anolis Resourcer v0.9 -[here](http://anolis.codeplex.com/)
+*  cURL v7.46.0 -[here](http://curl.haxx.se/)
+*  HelpNDoc v8.8 Needed to edit/compile help file -[here](https://www.helpndoc.com/)
 * Visual Studio Code
 <img src="https://visualstudio.microsoft.com/wp-content/uploads/2019/09/vs-code-responsive-01-1.png" alt="Visual Studio Code logo" style="height: 50px; width:60px;"/>
 
@@ -44,9 +49,26 @@ Visual Studio Code Editor - [found here](https://visualstudio.microsoft.com/)
 
 * SetUserFTA information - [found here](https://kolbi.cz/blog/2017/10/25/setuserfta-userchoice-hash-defeated-set-file-type-associations-per-user/)
 
+* Winscp ftp application
+
+* FART (Find And Replace Text) v1.99b -[here](http://sourceforge.net/projects/fart-it/)
+* md5sum.exe v1.3.0 -[here](http://code.kliu.org/misc/hashutils/)
+* Ultimate Packer for eXecutables UPX v3.91 -[here](http://upx.sourceforge.net/)
+* SetupS.Project_DevelopersPack_Tools [here](https://github.com/pacav69/SetupS.Project_DevelopersPack_Tools)
+
 
 ## Support
 
 <img src="https://vangogh.teespring.com/v3/image/SugZ-DRGZXUTuSzfrFtaOU3TAUQ/800/800.jpg" width="100px"  height="100px">
 
 [Help support by buying some merchandise](https://cavtronics-3.creator-spring.com/)
+
+# Acknowledgements
+
+The following members are the LastOS Team who have contributed immensely in creating and developing the tools provided for the silent installation of applications making life a little easier in the deployment of Windows.
+
+TheFreezer
+Glenn
+Pacav
+Trouba
+bphlpt
